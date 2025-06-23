@@ -1,0 +1,377 @@
+[
+  {
+    "group_id": 1,
+    "id": 1,
+    "text": "你好",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "1"
+      }
+    ]
+  },
+  {
+    "group_id": 1,
+    "id": 2,
+    "text": "需要什么？",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 3,
+    "text": "你有什么？",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 4,
+    "text": "有酒",
+    "actor": "酒保",
+    "selections": [
+      {
+        "group_id": 1,
+        "id": 5
+      },
+      {
+        "group_id": 1,
+        "id": 9
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 5,
+    "text": "来瓶酒",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 6,
+    "text": "好嘞",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "add_item",
+        "p": "10011"
+      }
+    ]
+  },
+  {
+    "group_id": 1,
+    "id": 7,
+    "text": "最近有什么新闻吗？",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 8,
+    "text": "你听说了吗……",
+    "actor": "酒保",
+    "selections": [
+      {
+        "group_id": 2,
+        "id": 1
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 9,
+    "text": "算了不用了",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 10,
+    "text": "穷逼",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 11,
+    "text": "最近有什么新闻吗？",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 12,
+    "text": "没有",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "add_group",
+        "p": "4"
+      }
+    ]
+  },
+  {
+    "group_id": 2,
+    "id": 1,
+    "text": "愿闻其详",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 2,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 3,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 4,
+    "text": "原来如此",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 5,
+    "text": "可不是吗",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "add_group",
+        "p": "3"
+      }
+    ]
+  },
+  {
+    "group_id": 3,
+    "id": 1,
+    "text": "（主角现在有酒，且知道酒保的情报。）",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "3"
+      }
+    ]
+  },
+  {
+    "group_id": 3,
+    "id": 2,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 3,
+    "text": "Blah blah blah...",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 4,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 5,
+    "text": "Blah blah blah...",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 1,
+    "text": "（主角现在没有酒，且啥都不知道。）",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "4"
+      }
+    ]
+  },
+  {
+    "group_id": 4,
+    "id": 2,
+    "text": "Blah blah blah...",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 3,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 4,
+    "text": "Blah blah blah...",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 5,
+    "text": "Yada yada yada...",
+    "actor": "酒保",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 1,
+    "text": "你有酒吗兄弟？",
+    "actor": "醉汉",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 2
+      },
+      {
+        "group_id": 5,
+        "id": 5
+      },
+      {
+        "group_id": 5,
+        "id": 8
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 2,
+    "text": "有的，给你",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [
+      10011
+    ],
+    "actions": [
+      {
+        "f": "remove_item",
+        "p": "10011"
+      }
+    ]
+  },
+  {
+    "group_id": 5,
+    "id": 3,
+    "text": "太好了，好兄弟",
+    "actor": "醉汉",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 5,
+    "text": "没有，抱歉",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 6,
+    "text": "……",
+    "actor": "醉汉",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 8,
+    "text": "滚一边去！",
+    "actor": "主角",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 9,
+    "text": "（害怕地跑掉了）",
+    "actor": "醉汉",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "5"
+      }
+    ]
+  }
+]
