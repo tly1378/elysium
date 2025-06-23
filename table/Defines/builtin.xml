@@ -1,17 +1,10 @@
 <module name="">
-    <bean name="vector2" valueType="1" sep=",">
-        <var name="x" type="float"/>
-        <var name="y" type="float"/>
+    <bean name="dialogue_id" valueType="1" sep="-">
+        <var name="group_id" type="int"/>
+        <var name="id" type="int"/>
     </bean>
-    <bean name="vector3" valueType="1" sep=",">
-        <var name="x" type="float"/>
-        <var name="y" type="float"/>
-        <var name="z" type="float"/>
-    </bean>
-    <bean name="vector4" valueType="1" sep=",">
-        <var name="x" type="float"/>
-        <var name="y" type="float"/>
-        <var name="z" type="float"/>
-        <var name="w" type="float"/>
+    <bean name="invoke" valueType="1" sep=",">
+        <var name="f" type="string"/>
+        <var name="p" type="string"/>
     </bean>
 </module>

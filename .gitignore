@@ -1,1 +1,28 @@
 .DS_Store
+__pycache__
+# 忽略所有图片文件
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# 保留所有代码文件
+!*.cs
+!*.shader
+!*.prefab
+!*.unity
+!*.meta
+!*.json
+!*.xml
+!*.dll
+
+# 保留 Unity 项目必要文件
+!Assets/**
+!Packages/**
+!ProjectSettings/**
+server/Builds
+server/Elysium/bin
+server/Elysium/bin
+server/Elysium/obj
+server/Elysium/bin

@@ -1,0 +1,12 @@
+[
+  {
+    "base_url": "http://cloud.turbo.org.cn",
+    "hub_port": 20100,
+    "initial_dialogues": [
+      1,
+      4,
+      5,
+      6
+    ]
+  }
+]
