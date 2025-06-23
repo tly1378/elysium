@@ -5,6 +5,16 @@ import gen.cfg.schema as schema
 
 sys.path.append(os.path.abspath('src/gen'))
 
+# ANSI颜色代码
+class Colors:
+    RESET = "\033[0m"
+    BOLD = "\033[1m"
+    FAINT = "\033[2m"
+    BLUE = "\033[94m"
+    GREEN = "\033[92m"
+    YELLOW = "\033[93m"
+    RED = "\033[91m"
+
 def loader(f):
     """JSON文件加载器"""
     return json.load(open('assets/data/' + f + ".json", 'r', encoding="utf-8"))
@@ -19,10 +29,10 @@ def remove_group(group_id):
     current.remove(int(group_id))
 def add_item(item_id):
     items.append(int(item_id))
-    print("\nGet item:", item_id, end='')
+    print(f"\n{Colors.GREEN}Get item: {item_id}{Colors.RESET}", end='')
 def remove_item(item_id):
     items.remove(int(item_id))
-    print("\nLost item:", item_id, end='')
+    print(f"\n{Colors.RED}Lost item: {item_id}{Colors.RESET}", end='')
 
 actions = {
     "add_group": add_group,
@@ -35,24 +45,23 @@ def do_action(action):
     if action.f in actions:
         actions[action.f](action.p)
     else:
-        print(f"Unknown action: {action.f}")
+        print(f"{Colors.YELLOW}Unknown action: {action.f}{Colors.RESET}")
 
 def main():
     while True:
-
         if current is None or len(current) == 0:
-            print("No dialogues available.")
+            print(f"{Colors.RED}No dialogues available.{Colors.RESET}")
             return
         
         while True:
-            id = input(f"Please select: {','.join(map(str, current))}\n")
+            print(f"{Colors.BLUE}Current dialogues: {','.join(map(str, current))}{Colors.RESET}")
+            id = input(">>> ")
             try:
                 id = int(id)
                 if id in current:
                     break
             except:
                 ...
-            print("Invalid input, please try again.")
 
         index = 1
         while True:
@@ -60,7 +69,7 @@ def main():
             if cfg is None:
                 print()
                 break
-            print(f"{cfg.group_id}-{cfg.id} {cfg.actor}: {cfg.text}", end='')
+            print(f"{Colors.BOLD}{cfg.group_id}-{cfg.id} {cfg.actor}: {Colors.RESET}{cfg.text}", end='')
             for action in cfg.actions:
                 do_action(action)
             input()
@@ -72,20 +81,20 @@ def main():
                     if dialogue.item_requirements is None or all(item in items for item in dialogue.item_requirements):
                         available_dialogues.append(dialogue)
                 for i, dialogue in enumerate(available_dialogues):
-                    print(f"{i+1}. {dialogue.text}")
+                    print(f"{Colors.YELLOW}{i+1}. {dialogue.text}{Colors.RESET}")
 
                 while True:
+                    selection_input = input(">>> ")
                     try:
-                        selection = int(input("Your selection: "))
+                        selection = int(selection_input)
                         dialogue = available_dialogues[selection-1]
                         id = dialogue.group_id
                         index = dialogue.id
                         break
                     except:
                         ...
-                    print("Invalid input, please try again.")
             else:
                 index += 1
 
 if __name__ == "__main__":
-    main() 
+    main()
