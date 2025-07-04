@@ -377,11 +377,11 @@
       },
       {
         "group_id": 4,
-        "id": 8
+        "id": 9
       },
       {
         "group_id": 4,
-        "id": 9
+        "id": 11
       }
     ],
     "item_requirements": [],
@@ -403,7 +403,7 @@
   },
   {
     "group_id": 4,
-    "id": 8,
+    "id": 9,
     "text": "Funny to hear that.",
     "actor": "M",
     "selections": [],
@@ -417,7 +417,7 @@
   },
   {
     "group_id": 4,
-    "id": 9,
+    "id": 11,
     "text": " I don’t give a fuck about that asshole.",
     "actor": "M",
     "selections": [],
@@ -426,17 +426,17 @@
   },
   {
     "group_id": 4,
-    "id": 10,
+    "id": 12,
     "text": "What’d he do to you?",
     "actor": "1",
     "selections": [
       {
         "group_id": 4,
-        "id": 11
+        "id": 13
       },
       {
         "group_id": 4,
-        "id": 12
+        "id": 14
       }
     ],
     "item_requirements": [],
@@ -444,13 +444,13 @@
   },
   {
     "group_id": 4,
-    "id": 11,
+    "id": 13,
     "text": "Let’s not mention it.",
     "actor": "M",
     "selections": [
       {
         "group_id": 4,
-        "id": 13
+        "id": 15
       }
     ],
     "item_requirements": [],
@@ -458,7 +458,7 @@
   },
   {
     "group_id": 4,
-    "id": 12,
+    "id": 14,
     "text": "Long story but don’t really want to talk about it.",
     "actor": "M",
     "selections": [],
@@ -467,7 +467,7 @@
   },
   {
     "group_id": 4,
-    "id": 13,
+    "id": 15,
     "text": "Up to you. But for what it’s worth... I never liked him either.",
     "actor": "1",
     "selections": [],
@@ -476,7 +476,7 @@
   },
   {
     "group_id": 4,
-    "id": 14,
+    "id": 16,
     "text": "(..)",
     "actor": "M",
     "selections": [],
@@ -545,17 +545,17 @@
   },
   {
     "group_id": 5,
-    "id": 5,
+    "id": 6,
     "text": "Appreciate it. It’s such a long week.",
     "actor": "2",
     "selections": [
       {
         "group_id": 5,
-        "id": 6
+        "id": 7
       },
       {
         "group_id": 5,
-        "id": 10
+        "id": 11
       }
     ],
     "item_requirements": [],
@@ -563,7 +563,7 @@
   },
   {
     "group_id": 5,
-    "id": 6,
+    "id": 7,
     "text": "What day is it again?",
     "actor": "M",
     "selections": [],
@@ -572,17 +572,17 @@
   },
   {
     "group_id": 5,
-    "id": 7,
+    "id": 8,
     "text": "Wednesday, but it feels like a Friday. Streets are busier than usual.",
     "actor": "2",
     "selections": [
       {
         "group_id": 5,
-        "id": 8
+        "id": 9
       },
       {
         "group_id": 5,
-        "id": 9
+        "id": 11
       }
     ],
     "item_requirements": [],
@@ -590,7 +590,7 @@
   },
   {
     "group_id": 5,
-    "id": 8,
+    "id": 9,
     "text": "People looking for an excuse to feel normal, I guess.",
     "actor": "M",
     "selections": [],
@@ -604,7 +604,7 @@
   },
   {
     "group_id": 5,
-    "id": 9,
+    "id": 11,
     "text": "Might be something in the air tonight.",
     "actor": "M",
     "selections": [],
@@ -618,7 +618,7 @@
   },
   {
     "group_id": 5,
-    "id": 10,
+    "id": 12,
     "text": "Same here. Really need a break.",
     "actor": "M",
     "selections": [],
@@ -627,7 +627,7 @@
   },
   {
     "group_id": 5,
-    "id": 11,
+    "id": 13,
     "text": "Yeah. Just waiting for a vacation that keeps getting pushed. These days, the bar’s the only place that feels like mine.",
     "actor": "2",
     "selections": [],
@@ -636,7 +636,7 @@
   },
   {
     "group_id": 5,
-    "id": 12,
+    "id": 14,
     "text": "Yeah. Lately, it feels like the city’s holding its breath.",
     "actor": "M",
     "selections": [],
@@ -645,7 +645,7 @@
   },
   {
     "group_id": 5,
-    "id": 13,
+    "id": 15,
     "text": "You ever get the feeling things aren’t slowing down anytime soon?",
     "actor": "M",
     "selections": [],
@@ -654,17 +654,17 @@
   },
   {
     "group_id": 5,
-    "id": 14,
+    "id": 16,
     "text": "Like something’s about to snap. People walk faster, talk less.",
     "actor": "2",
     "selections": [
       {
         "group_id": 5,
-        "id": 15
+        "id": 17
       },
       {
         "group_id": 5,
-        "id": 17
+        "id": 20
       }
     ],
     "item_requirements": [],
@@ -672,7 +672,7 @@
   },
   {
     "group_id": 5,
-    "id": 15,
+    "id": 17,
     "text": "You felt it too?.",
     "actor": "M",
     "selections": [],
@@ -686,7 +686,7 @@
   },
   {
     "group_id": 5,
-    "id": 16,
+    "id": 18,
     "text": "Yea.",
     "actor": "2",
     "selections": [],
@@ -695,7 +695,7 @@
   },
   {
     "group_id": 5,
-    "id": 17,
+    "id": 20,
     "text": "That’s our world. No complaints.",
     "actor": "M",
     "selections": [],
@@ -786,7 +786,7 @@
   },
   {
     "group_id": 6,
-    "id": 8,
+    "id": 9,
     "text": "Not everything’s about you.",
     "actor": "M",
     "selections": [],
@@ -795,7 +795,7 @@
   },
   {
     "group_id": 6,
-    "id": 9,
+    "id": 10,
     "text": "Relax. You’re not the first guy to ask me something just to sit closer.",
     "actor": "3",
     "selections": [],
@@ -804,17 +804,17 @@
   },
   {
     "group_id": 6,
-    "id": 10,
+    "id": 11,
     "text": "But points for confidence, I guess.",
     "actor": "3",
     "selections": [
       {
         "group_id": 6,
-        "id": 11
+        "id": 12
       },
       {
         "group_id": 6,
-        "id": 12
+        "id": 14
       }
     ],
     "item_requirements": [],
@@ -822,7 +822,7 @@
   },
   {
     "group_id": 6,
-    "id": 11,
+    "id": 12,
     "text": "Didn’t realize asking about a chair was a romantic gesture.",
     "actor": "M",
     "selections": [],
@@ -836,7 +836,7 @@
   },
   {
     "group_id": 6,
-    "id": 12,
+    "id": 14,
     "text": "You can keep the seat. I’ll stand — wouldn’t want to give you the wrong idea.",
     "actor": "M",
     "selections": [],
