@@ -2,48 +2,20 @@
   {
     "group_id": 1,
     "id": 1,
-    "text": "你好",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "remove_group",
-        "p": "1"
-      }
-    ]
-  },
-  {
-    "group_id": 1,
-    "id": 2,
-    "text": "需要什么？",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 3,
-    "text": "你有什么？",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 4,
-    "text": "有酒",
-    "actor": "酒保",
+    "text": "Hello sir, what can I get for you?",
+    "actor": "Bartender",
     "selections": [
       {
         "group_id": 1,
-        "id": 5
+        "id": 2
       },
       {
         "group_id": 1,
-        "id": 9
+        "id": 4
+      },
+      {
+        "group_id": 1,
+        "id": 6
       }
     ],
     "item_requirements": [],
@@ -51,42 +23,14 @@
   },
   {
     "group_id": 1,
-    "id": 5,
-    "text": "来瓶酒",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 6,
-    "text": "好嘞",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "add_item",
-        "p": "10011"
-      }
-    ]
-  },
-  {
-    "group_id": 1,
-    "id": 7,
-    "text": "最近有什么新闻吗？",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 8,
-    "text": "你听说了吗……",
-    "actor": "酒保",
+    "id": 2,
+    "text": "Hey, any news lately?",
+    "actor": "M",
     "selections": [
+      {
+        "group_id": 1,
+        "id": 3
+      },
       {
         "group_id": 2,
         "id": 1
@@ -97,211 +41,202 @@
   },
   {
     "group_id": 1,
-    "id": 9,
-    "text": "算了不用了",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 10,
-    "text": "穷逼",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 11,
-    "text": "最近有什么新闻吗？",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 1,
-    "id": 12,
-    "text": "没有",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "add_group",
-        "p": "4"
-      }
-    ]
-  },
-  {
-    "group_id": 2,
-    "id": 1,
-    "text": "愿闻其详",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 2,
-    "id": 2,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 2,
     "id": 3,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 2,
-    "id": 4,
-    "text": "原来如此",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 2,
-    "id": 5,
-    "text": "可不是吗",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "add_group",
-        "p": "3"
-      }
-    ]
-  },
-  {
-    "group_id": 3,
-    "id": 1,
-    "text": "（主角现在有酒，且知道酒保的情报。）",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "remove_group",
-        "p": "3"
-      }
-    ]
-  },
-  {
-    "group_id": 3,
-    "id": 2,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 3,
-    "id": 3,
-    "text": "Blah blah blah...",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 3,
-    "id": 4,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 3,
-    "id": 5,
-    "text": "Blah blah blah...",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 4,
-    "id": 1,
-    "text": "（主角现在没有酒，且啥都不知道。）",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": [
-      {
-        "f": "remove_group",
-        "p": "4"
-      }
-    ]
-  },
-  {
-    "group_id": 4,
-    "id": 2,
-    "text": "Blah blah blah...",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 4,
-    "id": 3,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 4,
-    "id": 4,
-    "text": "Blah blah blah...",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 4,
-    "id": 5,
-    "text": "Yada yada yada...",
-    "actor": "酒保",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 5,
-    "id": 1,
-    "text": "你有酒吗兄弟？",
-    "actor": "醉汉",
+    "text": "sir, I have no clue what you are talking about.",
+    "actor": "Bartender",
     "selections": [
       {
-        "group_id": 5,
+        "group_id": 1,
+        "id": 7
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 4,
+    "text": "Can I get …",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 5,
+    "text": "Alright, sir.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 1,
+        "id": 7
+      }
+    ],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "add_item",
+        "p": "10011"
+      }
+    ]
+  },
+  {
+    "group_id": 1,
+    "id": 6,
+    "text": "Nothing",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 1,
+        "id": 7
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 1,
+    "id": 7,
+    "text": "back",
+    "actor": "",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 1,
+    "text": "You heard about Victor? He went missing four days ago.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 2,
         "id": 2
       },
       {
-        "group_id": 5,
-        "id": 5
+        "group_id": 2,
+        "id": 4
+      }
+    ],
+    "item_requirements": [
+      10011
+    ],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 2,
+    "text": "That name doesn’t ring a bell",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 3,
+    "text": "Huh. Thought it would've made it to your ears by now. Everyone’s been talking about this.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 1
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 2,
+    "id": 4,
+    "text": "Victor… remind me. What’s the story?",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 1
+      }
+    ],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "add_group",
+        "p": "3"
+      }
+    ]
+  },
+  {
+    "group_id": 3,
+    "id": 1,
+    "text": "Who would've thought? Loud, nasty guy like that—ran his mouth too much, and now he’s the one no one can find. Pathetic, really.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 2
       },
       {
-        "group_id": 5,
+        "group_id": 3,
+        "id": 3
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 2,
+    "text": "What was he like, exactly?",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 4
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 3,
+    "text": "You know him well?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 4,
+    "text": "He had a real temper — used to show up here sometimes, acting like he owned the place. We had to chase him down just to get him to pay his tab.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 5,
+    "text": "One night, he got into it with another regular. Nearly beat the guy half to death.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 6,
+    "text": "Cops showed up fast. Pretty sure someone ended up in the hospital.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 7
+      },
+      {
+        "group_id": 3,
         "id": 8
       }
     ],
@@ -309,68 +244,713 @@
     "actions": []
   },
   {
-    "group_id": 5,
-    "id": 2,
-    "text": "有的，给你",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [
-      10011
+    "group_id": 3,
+    "id": 7,
+    "text": "Damn. Sounds like the kind of guy people remember for all the wrong reasons.",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 9
+      }
     ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 8,
+    "text": "For real? That’s some wild shit.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 9,
+    "text": "We almost banned him, but he stopped showing up after the cops came.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 3,
+        "id": 10
+      },
+      {
+        "group_id": 3,
+        "id": 12
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 10,
+    "text": "Doesn’t sound like the kind of guy who disappears quietly.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 11,
+    "text": "Not at all. But no one knows why he disappeared. No clues, no warning, nothing that adds up.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 12,
+    "text": "Guess the bar’s been a little calmer without him, huh?",
+    "actor": "",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 3,
+    "id": 13,
+    "text": "Still... something about the way he vanished doesn’t sit right.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 1,
+    "text": "Have you heard about the news?",
+    "actor": "1",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 2,
+    "text": "Huh?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 3,
+    "text": "Victor went missing just a few days ago.",
+    "actor": "1",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 4,
+    "text": "That gangster probably pissed off the wrong person… or just got wasted and passed out in some alley again.",
+    "actor": "1",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 5,
+    "text": "Is that so?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 6,
+    "text": "Yeah, well… can’t say I’m surprised. Too many people couldn’t stand him.",
+    "actor": "1",
+    "selections": [
+      {
+        "group_id": 4,
+        "id": 7
+      },
+      {
+        "group_id": 4,
+        "id": 8
+      },
+      {
+        "group_id": 4,
+        "id": 9
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 7,
+    "text": "I would imagine…",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
     "actions": [
       {
-        "f": "remove_item",
-        "p": "10011"
+        "f": "remove_group",
+        "p": "4"
+      }
+    ]
+  },
+  {
+    "group_id": 4,
+    "id": 8,
+    "text": "Funny to hear that.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "4"
+      }
+    ]
+  },
+  {
+    "group_id": 4,
+    "id": 9,
+    "text": " I don’t give a fuck about that asshole.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 10,
+    "text": "What’d he do to you?",
+    "actor": "1",
+    "selections": [
+      {
+        "group_id": 4,
+        "id": 11
+      },
+      {
+        "group_id": 4,
+        "id": 12
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 11,
+    "text": "Let’s not mention it.",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 4,
+        "id": 13
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 12,
+    "text": "Long story but don’t really want to talk about it.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 13,
+    "text": "Up to you. But for what it’s worth... I never liked him either.",
+    "actor": "1",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 4,
+    "id": 14,
+    "text": "(..)",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "4"
       }
     ]
   },
   {
     "group_id": 5,
+    "id": 1,
+    "text": "Hey man, do you happen to have a lighter?",
+    "actor": "2",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 2
+      },
+      {
+        "group_id": 5,
+        "id": 3
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 2,
+    "text": "Yea, here.",
+    "actor": "M",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 5
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
     "id": 3,
-    "text": "太好了，好兄弟",
-    "actor": "醉汉",
+    "text": "No. Stay away from me!",
+    "actor": "M",
     "selections": [],
     "item_requirements": [],
     "actions": []
   },
   {
     "group_id": 5,
-    "id": 5,
-    "text": "没有，抱歉",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 5,
-    "id": 6,
-    "text": "……",
-    "actor": "醉汉",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 5,
-    "id": 8,
-    "text": "滚一边去！",
-    "actor": "主角",
-    "selections": [],
-    "item_requirements": [],
-    "actions": []
-  },
-  {
-    "group_id": 5,
-    "id": 9,
-    "text": "（害怕地跑掉了）",
-    "actor": "醉汉",
+    "id": 4,
+    "text": "?",
+    "actor": "2",
     "selections": [],
     "item_requirements": [],
     "actions": [
       {
         "f": "remove_group",
         "p": "5"
+      }
+    ]
+  },
+  {
+    "group_id": 5,
+    "id": 5,
+    "text": "Appreciate it. It’s such a long week.",
+    "actor": "2",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 6
+      },
+      {
+        "group_id": 5,
+        "id": 10
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 6,
+    "text": "What day is it again?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 7,
+    "text": "Wednesday, but it feels like a Friday. Streets are busier than usual.",
+    "actor": "2",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 8
+      },
+      {
+        "group_id": 5,
+        "id": 9
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 8,
+    "text": "People looking for an excuse to feel normal, I guess.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "5"
+      }
+    ]
+  },
+  {
+    "group_id": 5,
+    "id": 9,
+    "text": "Might be something in the air tonight.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "5"
+      }
+    ]
+  },
+  {
+    "group_id": 5,
+    "id": 10,
+    "text": "Same here. Really need a break.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 11,
+    "text": "Yeah. Just waiting for a vacation that keeps getting pushed. These days, the bar’s the only place that feels like mine.",
+    "actor": "2",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 12,
+    "text": "Yeah. Lately, it feels like the city’s holding its breath.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 13,
+    "text": "You ever get the feeling things aren’t slowing down anytime soon?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 14,
+    "text": "Like something’s about to snap. People walk faster, talk less.",
+    "actor": "2",
+    "selections": [
+      {
+        "group_id": 5,
+        "id": 15
+      },
+      {
+        "group_id": 5,
+        "id": 17
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 15,
+    "text": "You felt it too?.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "5"
+      }
+    ]
+  },
+  {
+    "group_id": 5,
+    "id": 16,
+    "text": "Yea.",
+    "actor": "2",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 5,
+    "id": 17,
+    "text": "That’s our world. No complaints.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "5"
+      }
+    ]
+  },
+  {
+    "group_id": 6,
+    "id": 1,
+    "text": "Hey, excuse me — is anyone sitting here?",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 2,
+    "text": "You look fine, but sorry — not my type. Not in the mood for meeting another guy tonight.",
+    "actor": "3",
+    "selections": [
+      {
+        "group_id": 6,
+        "id": 3
+      },
+      {
+        "group_id": 6,
+        "id": 8
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 3,
+    "text": "That was not what I asked…",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 4,
+    "text": "Mmh, maybe not — but you were looking at me like you had something else in mind.",
+    "actor": "3",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 5,
+    "text": "Can’t blame you though. I get that a lot.",
+    "actor": "3",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 6,
+    "text": "And it’s not my fault some people are a little too into themselves.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 7,
+    "text": "If that’s what you want to believe, go ahead. I’m leaving…",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "6"
+      }
+    ]
+  },
+  {
+    "group_id": 6,
+    "id": 8,
+    "text": "Not everything’s about you.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 9,
+    "text": "Relax. You’re not the first guy to ask me something just to sit closer.",
+    "actor": "3",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 10,
+    "text": "But points for confidence, I guess.",
+    "actor": "3",
+    "selections": [
+      {
+        "group_id": 6,
+        "id": 11
+      },
+      {
+        "group_id": 6,
+        "id": 12
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 6,
+    "id": 11,
+    "text": "Didn’t realize asking about a chair was a romantic gesture.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "6"
+      }
+    ]
+  },
+  {
+    "group_id": 6,
+    "id": 12,
+    "text": "You can keep the seat. I’ll stand — wouldn’t want to give you the wrong idea.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "6"
+      }
+    ]
+  },
+  {
+    "group_id": 7,
+    "id": 1,
+    "text": "Hey, man — it's late. We're closing up.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 7,
+    "id": 2,
+    "text": "Oh, damn. Sorry about that — totally lost track of time.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 7,
+    "id": 3,
+    "text": "No worries. You should head home if you wanna catch any sleep before sunrise.",
+    "actor": "Bartender",
+    "selections": [
+      {
+        "group_id": 1,
+        "id": 4
+      },
+      {
+        "group_id": 1,
+        "id": 5
+      }
+    ],
+    "item_requirements": [],
+    "actions": []
+  },
+  {
+    "group_id": 7,
+    "id": 4,
+    "text": "Ha, thanks for the reminder.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "1"
+      }
+    ]
+  },
+  {
+    "group_id": 7,
+    "id": 5,
+    "text": "Story of my life.",
+    "actor": "M",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "1"
+      }
+    ]
+  },
+  {
+    "group_id": 8,
+    "id": 1,
+    "text": "Why are you still here, man? We’re already closed.",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "2"
+      }
+    ]
+  },
+  {
+    "group_id": 9,
+    "id": 1,
+    "text": "You good? We closed up a while ago. Can you head out?",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "3"
+      }
+    ]
+  },
+  {
+    "group_id": 10,
+    "id": 1,
+    "text": "Seriously? You planning to sleep here or what?",
+    "actor": "Bartender",
+    "selections": [],
+    "item_requirements": [],
+    "actions": [
+      {
+        "f": "remove_group",
+        "p": "3"
       }
     ]
   }
