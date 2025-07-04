@@ -3,6 +3,9 @@ __pycache__
 # 忽略所有图片文件
 *.png
 *.jpg
+*.jpeg
+*.webp
+*.gif
 
 # 保留所有代码文件
 !*.cs
