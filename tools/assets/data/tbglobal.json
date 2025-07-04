@@ -4,7 +4,9 @@
     "hub_port": 20100,
     "initial_dialogues": [
       1,
-      5
+      4,
+      5,
+      6
     ]
   }
 ]
