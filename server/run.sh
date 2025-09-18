@@ -7,6 +7,7 @@ PRIVATE_KEY="/Users/tanliyuan/.ssh/volcano.pem"
 REMOTE_DIR="/root/server"
 APP_NAME="Elysium"
 PORT="80"
+ENVIRONMENT="Development" # Production/Staging
 
 # 修复私钥权限问题
 chmod 600 "$PRIVATE_KEY"
@@ -19,6 +20,9 @@ ssh -i "$PRIVATE_KEY" "$REMOTE_USER@$REMOTE_IP" << EOF
   
   # 停止之前可能运行的实例
   pkill -f $APP_NAME || true
+
+  # 环境变量
+  export ASPNETCORE_ENVIRONMENT=$ENVIRONMENT
   
   # 启动应用程序并监听8080端口
   nohup ./$APP_NAME --urls "http://*:$PORT" > app.log 2>&1 &
