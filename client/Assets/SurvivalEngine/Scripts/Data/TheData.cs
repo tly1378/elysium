@@ -37,11 +37,11 @@ namespace SurvivalEngine
             if (TheGame.Find() != null)
             {
                 AssetData assets = AssetData.Get();
-                if (!FindObjectOfType<TheUI>())
+                if (!FindFirstObjectByType<TheUI>())
                     Instantiate(TheGame.IsMobile() ? assets.ui_canvas_mobile : assets.ui_canvas);
-                if (!FindObjectOfType<TheAudio>())
+                if (!FindFirstObjectByType<TheAudio>())
                     Instantiate(assets.audio_manager);
-                if (!FindObjectOfType<ActionSelector>())
+                if (!FindFirstObjectByType<ActionSelector>())
                     Instantiate(assets.action_selector);
             }
         }
@@ -49,7 +49,7 @@ namespace SurvivalEngine
         public static TheData Get()
         {
             if (_instance == null)
-                _instance = FindObjectOfType<TheData>();
+                _instance = FindFirstObjectByType<TheData>();
             return _instance;
         }
     }

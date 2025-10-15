@@ -725,7 +725,7 @@ namespace SurvivalEngine
         public static TheGame Find()
         {
             if (instance == null)
-                instance = FindObjectOfType<TheGame>();
+                instance = FindFirstObjectByType<TheGame>();
             return instance;
         }
 

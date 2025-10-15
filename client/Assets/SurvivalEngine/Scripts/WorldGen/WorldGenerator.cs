@@ -278,7 +278,7 @@ namespace SurvivalEngine.WorldGen
 
         public void GenerateNavmesh()
         {
-            NavMeshSurface surface = FindObjectOfType<NavMeshSurface>();
+            NavMeshSurface surface = FindFirstObjectByType<NavMeshSurface>();
             if (surface == null)
             {
                 GameObject sobj = new GameObject("NavMesh");
@@ -370,7 +370,7 @@ namespace SurvivalEngine.WorldGen
         public static WorldGenerator Get()
         {
             if (_instance == null)
-                _instance = FindObjectOfType<WorldGenerator>();
+                _instance = FindFirstObjectByType<WorldGenerator>();
             return _instance;
         }
 

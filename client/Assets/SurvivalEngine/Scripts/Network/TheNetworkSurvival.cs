@@ -255,7 +255,7 @@ namespace SurvivalEngine
         public static TheNetworkSurvival Get()
         {
             if (instance == null)
-                instance = FindObjectOfType<TheNetworkSurvival>();
+                instance = FindFirstObjectByType<TheNetworkSurvival>();
             return instance;
         }
     }

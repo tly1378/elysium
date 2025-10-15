@@ -32,7 +32,7 @@ namespace SurvivalEngine
 
         void Awake()
         {
-            NarrativeManager narrative = FindObjectOfType<NarrativeManager>();
+            NarrativeManager narrative = FindFirstObjectByType<NarrativeManager>();
             if (narrative != null)
             {
                 narrative.onPauseGameplay += OnPauseGameplay;

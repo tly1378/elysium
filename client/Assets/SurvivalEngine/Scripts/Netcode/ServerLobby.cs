@@ -739,7 +739,7 @@ namespace NetcodePlus
         public static ServerLobby Get()
         {
             if (instance == null)
-                instance = FindObjectOfType<ServerLobby>();
+                instance = FindFirstObjectByType<ServerLobby>();
             return instance;
         }
     }

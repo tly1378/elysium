@@ -41,7 +41,7 @@ namespace SurvivalEngine
         private void Awake()
         {
             //Add InControl Manager to scene
-            if (!FindObjectOfType<InControlManager>())
+            if (!FindFirstObjectByType<InControlManager>())
             {
                 if (in_control_manager != null)
                 {

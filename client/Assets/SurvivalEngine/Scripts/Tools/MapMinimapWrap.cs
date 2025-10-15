@@ -43,7 +43,7 @@ namespace SurvivalEngine
                     OnConnect(); //Run now if already connected
             }
 
-            MapManager map_manager = FindObjectOfType<MapManager>();
+            MapManager map_manager = FindFirstObjectByType<MapManager>();
             if (map_manager == null)
             {
                 Debug.LogError("Map Minimap: Integration failed - Make sure to add the MapManager to the scene");
